@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>parallax</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.box1{
+			height: 100vh;
+			width:100%;
+			background-image: url(i1.jpg);
+			background-size:cover;
+			display: table; /*here all text is centered in the image i.e. the content remains inside the block*/
+			background-attachment: fixed;
+		}
+
+		.box2{
+			height: 100vh;
+			width:100%;
+			background-image: url(i2.jpeg);
+			background-size:cover;
+			background-attachment: fixed;
+			display: table;
+		}
+
+		.box3{
+			height: 100vh;
+			width:100%;
+			background-image: url(i3.jpg);
+			background-size:cover;
+			background-attachment: fixed;
+			display: table;
+		}
+		h1{
+			font-family: arial black;
+			font-size: 50px;
+			color:white;
+			margin: 0px;
+			text-align: center;
+			display: table-cell;
+            vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<div class="box1"><h1>PARALLAX</h1>
+	</div>
+    <div class="box2"><h1>PARALLAX</h1>
+    </div>
+	<div class="box3"><h1>PARALLAX</h1>
+	</div>
+
+</body>
+</html>
